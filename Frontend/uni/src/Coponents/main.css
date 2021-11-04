@@ -1,0 +1,115 @@
+
+.cen{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+      width: 100%;
+    position: absolute;
+}
+
+.q{
+    scroll-behavior: smooth;
+    position: bottom;
+    overflow-y: scroll;
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+ }
+.myblue{
+    color: rgb(79, 156, 245);
+
+}
+.msgpad{
+    padding-top:4.7%; 
+    font-size: 2vh;
+    padding-left: 10px;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+}
+
+.mbox{  margin: 0.7%;
+    padding: 1%;
+    box-shadow: 2px;
+    background-color: rgb(48, 162, 255);
+    border:none;
+
+    color:rgb(255, 255, 255);
+    width: 98.5%;
+    border-radius: 15px;
+}
+
+.gbox{  margin: 0.7%;
+    padding: 1%;
+        background-color: rgb(215, 244, 255);
+    border:none;
+    border-radius: 15px;
+    width: 98.5%;
+}
+
+.jbox{
+    margin: 0.7%;
+    padding: 1%;
+        text-align: center;
+    background-color: rgb(204, 253, 216);
+    border:none;
+    border-radius: 15px;
+    width: 98.5%;
+}
+.lbox{
+    margin: 0.7%;
+    padding: 1%;
+        text-align: center;
+    background-color: rgb(255, 213, 213);
+    border:none;
+    border-radius: 15px;
+    width: 98.5%;
+}
+
+.listo::-webkit-scrollbar { width: 0 !important }
+.listo{ overflow: -moz-scrollbars-none; }
+.listo { -ms-overflow-style: none; }
+
+.rline:focus {outline:0;}
+
+.msg{
+    background-color: rgb(202, 233, 255);
+    overflow: hidden;
+}
+
+.logo{
+	color:rgb(31, 173, 255)
+}
+
+
+.foot{
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 15px 15px 0px 0px;
+    color: black;
+}
+
+@media only screen and (min-width: 700px) {
+  .full{
+      display: normal;
+  }
+  .mob{
+      display:none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .full{
+      display: none;
+  }
+  .mob{
+      display:normal;
+  }
+}
+
+.redo{
+    color: red;
+}

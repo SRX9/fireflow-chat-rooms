@@ -1,0 +1,23 @@
+{
+  "name": "markserver2.1.0",
+  "version": "2.1.0",
+  "description": "multi user connecting and handling server",
+  "main": "Mainserver.js",
+  "scripts": {
+    "start": "node Mainserver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.12.0"
+  },
+  "author": "SRx",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fuzzy": "^0.1.3",
+    "jsonfile": "^5.0.0",
+    "loadash": "^1.0.0"
+  }
+}
